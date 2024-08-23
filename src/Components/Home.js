@@ -323,13 +323,13 @@ const Home = () => {
               <div className="relative mb-4 flex justify-center">
                 <div
                   className="rounded-3xl overflow-hidden"
-                  style={{ width: "380px", height: "700px" }} // Adjusted size
+                  style={{ width: "380px", height: "700px" }}
                 >
                   <iframe
                     src={project.url}
                     title={project.title}
-                    className="w-full h-full border-none"
-                    style={{ borderRadius: "20px", transform: "scale(0.74)" }} // Slightly scaled down
+                    className="w-full h-full border-4 border-black dark:border-blue-200"
+                    style={{ borderRadius: "20px", transform: "scale(0.74)" }}
                   ></iframe>
                 </div>
               </div>

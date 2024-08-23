@@ -38,8 +38,8 @@ const Header = () => {
     >
       <div className="mx-auto px-2 sm:px-4 lg:px-3">
         <div className="relative flex h-16 items-center justify-between">
-          {/* Mobile menu button */}
-          <div className="sm:hidden flex items-center">
+          {/* Mobile menu button with logo beside */}
+          <div className="flex items-center sm:hidden">
             <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 dark:text-gray-300 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
               <span className="sr-only">Open main menu</span>
               <Bars3Icon
@@ -51,17 +51,20 @@ const Header = () => {
                 className="hidden h-6 w-6 group-data-[open]:block"
               />
             </DisclosureButton>
+            <div className="ml-3">
+              <h1 className="text-white font-bold text-2xl">Zuntly</h1>
+            </div>
           </div>
 
-          {/* Company Logo */}
-          <div className="flex items-center pl-3">
+          {/* Company Logo for desktop view */}
+          <div className="hidden sm:flex items-center pl-3">
             <div className="flex-shrink-0">
               <h1 className="text-white font-bold text-2xl">Zuntly</h1>
             </div>
           </div>
 
           {/* Desktop navigation */}
-          <div className="hidden sm:flex sm:items-center sm:justify-between">
+          <div className="hidden sm:flex sm:items-center sm:justify-center flex-grow">
             <div className="flex space-x-4">
               {navigation.map((item) => (
                 <Link
