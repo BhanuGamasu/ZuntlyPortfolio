@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.20bcab81.css",
-    "main.js": "/static/js/main.0456e862.js",
-    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
-    "static/media/Background.jpg": "/static/media/Background.949dc515a9dcff5a5dff.jpg",
-    "static/media/profile.png": "/static/media/profile.5faf09a7795d28bf5a2b.png",
-    "index.html": "/index.html",
-    "main.20bcab81.css.map": "/static/css/main.20bcab81.css.map",
-    "main.0456e862.js.map": "/static/js/main.0456e862.js.map",
-    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/ZuntlyPortfolio/static/css/main.20bcab81.css",
+    "main.js": "/ZuntlyPortfolio/static/js/main.c727a503.js",
+    "static/js/453.1407b060.chunk.js": "/ZuntlyPortfolio/static/js/453.1407b060.chunk.js",
+    "static/media/Background.jpg": "/ZuntlyPortfolio/static/media/Background.949dc515a9dcff5a5dff.jpg",
+    "static/media/profile.png": "/ZuntlyPortfolio/static/media/profile.5faf09a7795d28bf5a2b.png",
+    "index.html": "/ZuntlyPortfolio/index.html",
+    "main.20bcab81.css.map": "/ZuntlyPortfolio/static/css/main.20bcab81.css.map",
+    "main.c727a503.js.map": "/ZuntlyPortfolio/static/js/main.c727a503.js.map",
+    "453.1407b060.chunk.js.map": "/ZuntlyPortfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.20bcab81.css",
-    "static/js/main.0456e862.js"
+    "static/js/main.c727a503.js"
   ]
 }
